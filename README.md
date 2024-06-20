@@ -11,7 +11,7 @@ b. Once the program is started, it will repeatedly ask the user for an action to
     Defines a new type that will have methods with names set in the provided list. The <type> can be:<br>
       - A name, which establishes a type that does not inherit from any other.<br>
       - An expression of the form <name> : <super>, which states the name of the type and the fact that this type inherits from the type with name <super>.<br>
-    For example: ```CLASS A f g y CLASS B : A f h```.<br>
+    For example: ```CLASS A f g``` and ```CLASS B : A f h```.<br>
     Let's note that it is possible to replace definitions of a super class in classes that inherit it.<br>
     The program should report an error and ignore the action if the name of the new class already exists, if the super class does not exist, if there are repeated definitions in the list of method names, or if a loop occurs in the inheritance hierarchy.
   2. ```DESCRIBIR <name>```<br>
